@@ -1,0 +1,141 @@
+.details{
+    display: flex;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 245, 231);
+}
+
+.container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+}
+
+.card hr{
+    float: left; 
+    width: 80%; 
+    color: black; 
+    margin-right: 10px;
+    
+}
+
+.card_container{
+    
+    width: 33.33%;
+        
+}
+
+.card span{
+    letter-spacing: 4px;
+}
+
+.card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card{
+    margin: 15px;
+    
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+
+.card img{
+    width: 72%;
+    clear: both;
+    height: 200px;
+    
+}
+
+.card button{
+    height: 25px; 
+     
+    margin-top: auto; 
+    margin-left: auto;
+}
+
+.id{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.navbar{
+    margin: 30px;
+    display: flex;
+}
+
+.btn-group{
+    /* border: 1px solid black; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+    
+}
+
+.btn{
+   display:block;
+   margin-left: 0px;
+   margin-right: 0px;
+   
+   /* color: white; */
+   background-color: aliceblue;
+   border: none;
+   padding: 13px 30px;
+   border-radius: 5px;
+   
+
+}
+
+.btndiv{
+    float: left;
+    
+    
+}
+
+
+
+.btn:hover{
+    border-bottom: 3px solid darkslateblue;
+    color: darkslateblue;
+}
+
+.btn:focus{
+    border-bottom: 3px solid darkslateblue;
+    color: darkslateblue;
+    outline: none;
+    
+    
+}
+
+
+@media only screen and (max-width: 950px) {
+    .card_container{
+    
+        
+        width: 50%;
+    
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card_container{
+    
+        
+        width: 100%;
+    
+    
+    }
+}
